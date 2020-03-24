@@ -14,20 +14,19 @@
     以下内容请用专门的 Html 编辑器(如 notepad++)进行编辑，切勿直接用记事本编辑，否则可能出现中文乱码！
     */ 
     var setting = {
-        /* 在以下【双引号】中粘贴QQ钱包收款链接 */ 
-        qqUrl: "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&a=1&u=1097437863&ac=B4C5BACD47FE6936D4B6DD29D866E1FC3AEA141B073F9DD94DE6404509CEE0FA&n=孤帆远影&f=wallet",
+        /* 在以下【双引号】中粘贴你的QQ钱包收款链接 */ 
+        qqUrl: "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&a=1&u=10001&ac=B4C5BACD47FE6936D4B6DD29D866E1XXXAEA141B073F9DD94DE6404509CEEXXX&n=xxxx&f=wallet",
         
-        /* 在以下【双引号】中粘贴微信收款链接 */ 
-        wechatUrl: "https://wx.tenpay.com/f2f?t=AQAAAFtDAYCgnh0H4NWppc2G0n0%3D",
+        /* 在以下【双引号】中粘贴你的微信收款链接 */ 
+        wechatUrl: "wxp://f2f0z437vuTAcccccBgM8wPigxx__Nl9aaWK",
         
-        /* 在以下【双引号】中粘贴支付宝收款链接 */ 
-        aliUrl: "HTTPS://QR.ALIPAY.COM/FKX05202GE16QHOXXX7NE6",
+        /* 在以下【双引号】中粘贴你的支付宝收款链接 */ 
+        aliUrl: "HTTPS://QR.ALIPAY.COM/FXXX5202XXXXHOXXX7NXX",
         
         // 用于动态生成二维码的API，一般不需要修改。
         qrcodeApi: "https://www.kuaizhan.com/common/encode-png?large=true&data="    
         /*
         备用二维码api：
-        http://s.jiathis.com/qrcode.php?url=
         https://www.kuaizhan.com/common/encode-png?large=true&data=
         http://b.bshare.cn/barCode?site=weixin&url=
         https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=10&data=
@@ -108,7 +107,7 @@
     <div class="code-item" id="code-all">
         <div class="code-title"></div>
         <div class="code-area">
-            <img id="page-url" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==">
+            <img id="page-url" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
         </div>
         <div class="code-footer">扫描以上二维码向我付款</div>
     </div>
@@ -117,7 +116,7 @@
     <div class="code-item" id="code-qq">
         <div class="code-title"></div>
         <div class="code-area">
-            <img id="qq-url" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==">
+            <img id="qq-url" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
         </div>
         <div class="code-footer">长按以上二维码向我付款</div>
     </div>
@@ -126,14 +125,14 @@
     <div class="code-item" id="code-wechat">
         <div class="code-title"></div>
         <div class="code-area">
-            <img id="wechat-url" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==">
+            <img id="wechat-url" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=">
         </div>
         <div class="code-footer">长按以上二维码向我付款</div>
     </div>
     
     <script>
     if(!(/^http(s*):\/\//.test(location.href)) || /^http(s*):\/\/localhost/.test(location.href)) {
-        alert('本收款码需要网站空间进行中转，请先部署到网站下再访问');
+        alert('本收款码需要网站空间进行中转，请先部署到网站下再使用');
         window.location.href='https://github.com/mengkunsoft/OneQRCode';
     }
     

@@ -1,11 +1,23 @@
 # OneQRCode
-微信、支付宝、QQ 三合一收款二维码（单页版）
+
+微信、支付宝、QQ 三合一收款二维码，单页版
+
+![](https://img.shields.io/github/issues/mengkunsoft/OneQRCode.svg?style=flat-square) ![](https://img.shields.io/github/forks/mengkunsoft/OneQRCode.svg?style=flat-square) ![](https://img.shields.io/github/stars/mengkunsoft/OneQRCode.svg?style=flat-square) ![](https://img.shields.io/github/license/mengkunsoft/OneQRCode.svg?style=flat-square)
+
+## 特点
+ 
+ - 纯前端实现，无需安装，无需数据库；
+ - 免维护，无任何多余的配置，只需修改收款链接，即可永久使用。
+
+## 使用方法
+ 
+ 1. [点击下载](https://github.com/mengkunsoft/OneQRCode/archive/master.zip) 本项目代码到本地；
+ 2. 打开  `index.html`，将里面的收款码链接修改成你自己的；
+ 3. 将 `index.html` 上传至你的网站空间，即可开始使用！
 
 ## 注意事项
 
- - 使用前将 `index.html` 中的收款链接改成你自己的；
- - 请用专门的 Html 编辑器(如 notepad++)进行编辑，切勿直接用记事本编辑，否则可能出现中文乱码！
- - 请将 `index.html` 上传至你的网站空间使用。直接在本地打开将无法运行；
+ - 请用专门的 HTML 编辑器(如 Notepad++)编辑代码，切勿直接用记事本编辑，否则可能出现中文乱码！
  - 本作品禁止任何形式的倒卖，转载请注明出处。
 
 ## 原理
@@ -29,7 +41,11 @@ if(navigator.userAgent.match(/Alipay/i)) {
 
 [多合一收款二维码原理及实现](https://mkblog.cn/922/)
 
-[详细使用说明请查阅项目wiki](https://github.com/mengkunsoft/OneQRCode/wiki)
+[更多使用说明请查阅项目wiki](https://github.com/mengkunsoft/OneQRCode/wiki)
+
+在线演示：
+
+http://lab.mkblog.cn/oneqrcode/
 
 # License
 

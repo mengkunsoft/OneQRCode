@@ -1,6 +1,6 @@
 # OneQRCode
 
-微信、支付宝、QQ 三合一收款二维码，单页版
+微信、支付宝、QQ 三合一收款二维码，单文件版
 
 ![](https://img.shields.io/github/issues/mengkunsoft/OneQRCode.svg?style=flat-square) ![](https://img.shields.io/github/forks/mengkunsoft/OneQRCode.svg?style=flat-square) ![](https://img.shields.io/github/stars/mengkunsoft/OneQRCode.svg?style=flat-square) ![](https://img.shields.io/github/license/mengkunsoft/OneQRCode.svg?style=flat-square)
 
@@ -17,7 +17,7 @@
 
 ## 注意事项
 
- - 请用专门的 HTML 编辑器(如 Notepad++)编辑代码，切勿直接用记事本编辑，否则可能出现中文乱码！
+ - 请用专门的 HTML 编辑器（如 VS Code）编辑代码，切勿直接用记事本编辑，否则可能出现中文乱码！
  - 本作品禁止任何形式的倒卖，转载请注明出处。
 
 ## 原理
